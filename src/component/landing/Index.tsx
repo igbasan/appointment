@@ -1,11 +1,16 @@
 import React from 'react'
+import Navbar from './nav/Navbar';
+import Content from './contents/Content';
+import Footer from './footer/Footer';
 
 const Index = () => {
     return (
-        <div>
-            Lyout
-            
-        </div>
+        <>
+            <Navbar/>
+            <Content/>
+            <Footer/>
+        </>
+
     )
 }
 
