@@ -1,13 +1,16 @@
 import React from 'react';
 import './App.css';
+import Index from "./component/landing/Index";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-      </header>
-    </div>
-  );
+
+
+const App =()=>{
+    return(
+      <Index/>
+    );
+
 }
+
+
 
 export default App;

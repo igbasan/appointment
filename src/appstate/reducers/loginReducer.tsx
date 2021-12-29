@@ -1,18 +1,17 @@
 
-const reducer=(state=0, action)=>{
+const loginReducer=(state=0, action:any)=>{
 
     switch(action.type){
 
-        case  "LOGIN-SUCCESS":
-            return state + action.payload;
-        
         default:
             return state
-
     }
 
 };
 
-export default reducer;
+export default loginReducer;
+
+
+
 
 
